@@ -34,3 +34,21 @@ echo "Je dors enfin...<br><br>";
 
 // TODO Votre code ici !
 
+$nombreVache = 1;
+while ($nombreVache <= 25) {
+    echo $nombreVache . " vache(s) <br>";
+    $nombreVache++;
+}
+echo "Meuhh...<br><br>";
+
+
+$nombreVache = 1;
+$complete = false;
+while ($complete === false) {
+    echo $nombreVache . " vache(s) <br>";
+    $nombreVache++;
+    if ($nombreVache > 25) {
+        $complete = true;
+    }
+}
+echo "Meuh meuhh...<br><br>";

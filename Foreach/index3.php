@@ -39,7 +39,11 @@ $videotheque = array(
 
 echo '12.Mes films : <br>';
 //ajoutez votre code ici
+foreach ($videotheque as $key => $value){
+    echo $key . "<br>";
+}
 
+echo "<br><br>";
 
 //----------------------------------------
 //Afficher toutes les informations de la vidéothèque
